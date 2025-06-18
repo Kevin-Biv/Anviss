@@ -15,7 +15,4 @@ npx update-browserslist-db@latest
 
 Build app: `npm run electron-pack`
 
-TODO:
-1. ~Reminders image does not show up correctly in electorn app (it works fine in development version)~
-2. Clicking enter button when adding a note logs user out
-3. New user is not able to login after closing and reopening the app
+Extended Project by Michael Scott
