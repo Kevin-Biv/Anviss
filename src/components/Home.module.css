@@ -1,0 +1,283 @@
+/*
+lighter green #56C135
+darker green #31AD40
+*/
+.head {
+  background-color: #CBFFF9;
+  color: #56C135;
+  height: 100px;
+  font-size: x-large;
+  top: 0;
+  width: 100%;
+  position: fixed;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.head h1 {
+  text-align: center;
+}
+
+.logoBox {
+  display: inline;
+  margin-inline-end: 40%;
+}
+
+
+.headLogo {
+  margin-top: 15px;
+  margin-left: 20px;
+  position: absolute;
+  height: 65px;
+}
+
+.reminderButton {
+  position: inherit;
+  width: 200px;
+  height: 40px;
+  border: none;
+  font-size: 20px;
+  background-color: #56C135;
+  color: white;
+}
+
+.customButton {
+  background-color: inherit;
+  border: none;
+  border-radius: 4%;
+}
+
+.submitButton {
+  border: none;
+  background-color: #d4af37;
+  ;
+  padding: 6px 30px;
+  margin: auto;
+}
+
+.plus input {
+  /*border: none;*/
+  width: 13%;
+  font-size: 12px;
+}
+
+.add input {
+  width: 75%;
+  font-size: 15px;
+}
+
+label {
+  font-size: 13px;
+}
+
+.dateEdit input {
+  width: 80%;
+  border: none;
+}
+
+.infoEdit input {
+  width: 70%;
+  border: none;
+}
+
+.plusButton {
+  margin-left: 250px;
+}
+
+button.plus {
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+  padding: 0px;
+  float: left;
+}
+
+.plus img {
+  width: 30px;
+  height: auto;
+}
+
+.contentBody {
+  background-color: #FFFDF3;
+}
+
+.maintable {
+  margin-left: 200px;
+  width: 85%;
+}
+
+table {
+  /*width: 100%;*/
+  border: .5px solid #858585;
+  border-collapse: collapse;
+}
+
+th {
+  height: 25px;
+  top: 0;
+  border-bottom: 1px solid #858585;
+  background-color: #E3E3E3;
+}
+
+thead tr {
+  border-bottom: black;
+}
+
+tr {
+  height: 30%;
+}
+
+tr:nth-child(even) {
+  background-color: #E3E3E3;
+}
+
+td {
+  height: 45px;
+  text-align: center;
+}
+
+.newInfo {
+  width: 5%;
+}
+
+.info {
+  width: 5%;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+  outline: none;
+}
+
+.dateTbl {
+  width: 5%;
+}
+
+td img {
+  display: block;
+  width: 200px;
+  height: auto;
+}
+
+td.clear {
+  width: 10%;
+  background-color: #00cd2b;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  display: table-cell;
+  margin-right: 2px;
+  border-bottom: .5px solid #009920;
+}
+
+td.expired {
+  width: 10%;
+  background-color: #F52F2F;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  display: table-cell;
+  margin-right: 2px;
+  border-bottom: 1px solid #BD1414;
+}
+
+td.warning {
+  width: 10%;
+  background-color: #e5fc14;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  display: table-cell;
+  margin-right: 2px;
+  border-bottom: 1px solid #c1d413;
+}
+
+.icon {
+  position: relative;
+}
+
+.icon::after {
+  content: '#1';
+  color: red;
+  font-size: 12px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+td {
+  border-left: 1px solid #B0AFAF;
+  border-right: 1px solid #B0AFAF;
+  border-collapse: collapse;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.sidebarContainer {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #E1FAF7;
+  position: fixed;
+  height: calc(100vh - 100px);
+  overflow: auto;
+  z-index: 1;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #E1FAF7;
+  position: fixed;
+  height: calc(100vh - 100px);
+  overflow: auto;
+  z-index: 1;
+}
+
+/* Sidebar links */
+.sidebar div {
+  display: flex;
+  background-color: #7EB6AF;
+  color: white;
+  font-size: 20px;
+  padding: 16px;
+  text-decoration: none;
+  border: none;
+  width: 100%;
+  justify-content: space-between;
+}
+
+/* Active/current link 
+  8F8F8F
+  #7EB6AF*/
+.sidebar div.active {
+  background-color: #56C135;
+  color: white;
+}
+
+/* Links on mouse-over */
+.sidebar div:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+.foot {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #FFFDF3;
+}

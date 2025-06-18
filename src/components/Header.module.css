@@ -1,0 +1,18 @@
+.head {
+  background-color: #CBFFF9;
+  color: #56C135;
+  height: 100px;
+  font-size: x-large;
+  top: 0;
+  width: 100%;
+  position: fixed;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.headLogo {
+  margin-top: 15px;
+  margin-left: 20px;
+  position: absolute;
+  height: 65px;
+}
